@@ -1,0 +1,5 @@
+*.gsheet
+
+raspi/lib/
+
+.DS_Store
