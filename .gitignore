@@ -1,5 +1,6 @@
 *.gsheet
 
 raspi/lib/
+raspi/settings.py
 
 .DS_Store
