@@ -1,0 +1,3 @@
+[submodule "raspi/lib/DHT11_Python"]
+	path = raspi/lib/DHT11_Python
+	url = https://github.com/szazo/DHT11_Python.git
