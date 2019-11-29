@@ -18,7 +18,7 @@ try:
     while True:
         result = instance.read()
         if result.is_valid():
-            data = {"timestamp": str(datetime.datetime.now()), "pi_id": PI_ID, "temperature": "%-3.1f C" % result.temperature, "humidity": "%-3.1f %%" % result.humidity}
+            data = {"timestamp": str(datetime.datetime.now()), "pi_id": PI_ID, "temperature": "%-3.1f" % result.temperature, "humidity": "%-3.1f" % result.humidity}
             response = requests.post(GAS_URL, data=data)
 
             print("Last valid input: " + data["timestamp"])
